@@ -1,0 +1,167 @@
+*{
+    margin: 0 auto;
+}
+.container{
+    width: 100%;
+    height: 2600px;
+    background-color: rgb(114, 23, 140);
+}
+.top{
+    margin-left: 90%;
+    margin-top: 10%;
+    background-color: rgba(243, 2, 62, 0.5);
+    font-family: "Lemon", serif;
+    font-size: 2.5em;
+    font-weight: 900;
+    color: wheat;
+    position: fixed;
+    border-radius: 25px 25px 25px 25px;
+    text-decoration: none;
+    padding: 10px;
+    border: #000;
+    box-shadow: 5px 5px 5px #000;
+    text-shadow: 3px 3px 0px #818080;
+}
+.top:hover {
+    background-color: black;
+    color: wheat;
+}
+header{
+    width: 70%;
+    height: 200px;
+    margin-left: 15%;
+    
+}
+h1{
+    text-align: center;
+    padding-top: 30px;
+    font-family: "Lemon", serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 100px;
+    text-shadow: 5px 5px 0px #818080;
+     
+
+
+}
+.alph {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -30px;
+}
+.alph .ibox{
+    width: 25px;
+    height: 30px;
+    background-color: white;
+    text-align: center;
+    padding-top: 15PX;
+    font-weight: bolder;
+    cursor: pointer;
+    border: #000;
+    box-shadow: 5px 5px 5px #000;
+}
+.alph .ibox a{
+    text-decoration: none;
+    color: #000;
+}
+.box{
+    width: 70%;
+    height: 300px;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.box .boxes{
+    width: 200px;
+    height: 230px;
+    background-color: white;
+    margin-left: 10px;
+    border: #000;
+    box-shadow: 5px 5px 5px #000;
+    
+    
+}
+.box .boxes h2{
+    font-family: "Lemon", serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 60px;
+    padding-left: 25px;
+}
+.box .boxes h4{
+    margin-top: -15px;
+    text-align: center;
+}
+.box .boxes img{
+    margin-left: 20px;
+    margin-top: -10px;
+
+}
+.box .boxes1{
+    width: 200px;
+    height: 230px;
+    background-color: white;
+    margin-left: 10px;
+    border: #000;
+    box-shadow: 3px 3px 3px #000;
+    
+    
+}
+.box .boxes1 h2{
+    font-family: "Lemon", serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 60px;
+    padding-left: 25px;
+}
+.box .boxes1 h4{
+    margin-top: -15px;
+    text-align: center;
+}
+.box .boxes1 img{
+    margin-left: 20px;
+    margin-top: -10px;
+
+}
+.text-box{
+    width: 100%;
+    height: 300px;
+    background-color: darkorange;
+    margin-top: 60px;
+    
+   
+    
+}
+form h1{
+    font-size: large;
+    text-align: left;
+    margin-left: 25px;
+}
+input {
+    width: 200px;
+    height: 25px;
+    margin-left: 25px;
+    border-radius: 5px;
+    border: #000;
+    box-shadow: 3px 3px 3px #000;
+
+}
+
+textarea{
+    margin-left: 25px;
+    border-radius: 5px;
+    border: #000;
+    box-shadow: 3px 3px 3px #000;
+}
+button{
+    margin-left: 25px;
+    height: 25px;
+    background-color: cornflowerblue;
+    border-radius: 5px;
+    border: #000;
+    box-shadow: 3px 3px 3px #000;
+    font-weight: 900;
+}
